@@ -2,6 +2,7 @@
 <html lang="ru"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover,user-scalable=no">
 <title>Перекуп — гаражная империя</title>
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 :root{color-scheme:dark;--bg:#0c1117;--steel:#2a333d;--steel2:#47535f;--gold:#ffc83a;--gold2:#d97c00;--ink:#1a1206;--ok:#6ee05a;--bad:#ff5a4a;--txt:#eef3f7;--mut:#8fa0ae;box-sizing:border-box}
@@ -60,8 +61,20 @@ h1,h2,h3,.rus,button,.pill,.price div,.btn,.stamp,.rn,.st b,.float{font-weight:6
 body{font-size:17px;letter-spacing:.02em}.mut{font-size:15px!important}.btn{font-size:18px}h2{font-size:28px}.pill{font-size:22px}.price div{font-size:20px}.price div small{font-size:12px}.part b{font-size:15px!important}nav button{font-size:13px!important;text-transform:uppercase}.card .info b.rus{font-size:19px!important}.bubble{font-size:17px}.rl{font-size:16px}.stamp{font-size:32px}.float{font-size:30px}
 @media(prefers-reduced-motion:reduce){*{animation-duration:.01s!important}}
 .card{align-items:flex-start}.card .pic{align-self:flex-start;aspect-ratio:3/2;display:flex;align-items:flex-end;background:linear-gradient(#5d7c93,#243441 72%,#151b21 72%)}.card .pic .car{animation:none;margin-bottom:8%}.ava{overflow:hidden;display:block}
+/* compact mobile layout */
+body{font-size:15px}.hud{gap:6px;padding:8px 8px 4px}.pill{font-size:18px;padding:5px 8px;min-width:0;gap:5px;letter-spacing:.02em}.pill .ic{width:20px;height:20px}.pill.sq{padding:5px 7px}#bar{margin:0 8px}
+main{padding:8px 10px 92px}.plate{padding:10px;margin-bottom:10px;border-radius:14px}h2{font-size:24px;margin:2px 0 8px}.mut{font-size:13px!important}
+.btn{font-size:15px;padding:8px 10px;letter-spacing:.03em}.btn .ic{width:18px;height:18px}
+.fl select{padding:6px;font-size:13px}.fg{gap:5px}.chip{padding:4px 7px}
+.card{gap:8px}.card .pic{width:40%;flex:none}.card .info{min-width:0;gap:4px}.card .info b.rus{font-size:16px!important;line-height:1.1}
+.card .price{flex-direction:column;gap:3px}.card .price div{display:flex;justify-content:space-between;align-items:center;gap:6px;padding:3px 8px;font-size:16px;white-space:nowrap;text-align:left;letter-spacing:.02em}.card .price div small{display:inline;font-size:11px;opacity:.75;letter-spacing:.02em}
+.card .btn{white-space:nowrap;padding:6px 4px;font-size:14px}
+.price div{font-size:16px;white-space:nowrap}.price div small{font-size:10px}
+.part{padding:6px 4px}.part b{font-size:13px!important}.p3 .part .ic{width:30px;height:30px}.part .mut{font-size:12px!important}
+.bubble{font-size:15px;padding:8px}.ava{width:52px;height:52px}.offer .ava{width:40px;height:40px}.rl{font-size:14px}.stamp{font-size:26px}
+nav{left:8px;right:8px;padding:4px}nav button{font-size:11px!important;letter-spacing:0;padding:5px 0}nav button .ic{width:24px;height:24px}
+.jb{margin:0 8px 4px;font-size:13px}.stage{height:170px}.st b{font-size:17px!important}
 </style></head><body>
-<script src="https://telegram.org/js/telegram-web-app.js"></script>
 <svg width="0" height="0" style="position:absolute"><defs>
 <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".55"/><stop offset=".45" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".5"/></linearGradient>
 <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#bfe8ff"/><stop offset=".5" stop-color="#3d6a8a"/><stop offset="1" stop-color="#0e2231"/></linearGradient>
